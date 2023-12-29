@@ -1,0 +1,57 @@
+body
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    background-color: bisque;
+    border: 2px;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 70%;
+    height: auto;
+    margin: 0;
+    margin-left: 5%;
+    padding: 25px;
+    background-color: aquamarine;
+}
+label
+{   
+    width: 20%;
+    padding: 2px;
+    border-radius: 2px;
+    border: none;
+    font-size: 1.25em;
+    display: block;
+}
+
+input, select
+  {   
+    width: 50%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    
+    
+ }
+  
+button
+ {
+    width: 100px;
+    height: 50px;
+    background: blue;
+    font-size: large;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }

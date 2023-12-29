@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <div class="main">
+        <h1>Restaurant Booking form</h1>
+        <form>
+         <label>Choice of booking</label>
+         <select id="cob" name="choice"  placeholder="Booking" required>
+            
+            <option value=""></option>
+            <option value="">FullDay Booking</option>
+            <option value="">HalfDay Booking</option>
+            <option value="">Hourly Booking</option>
+         </select><br>
+         <label for="name">User Name</label>
+         <input type="text" id="name" name="uname"  pattern=[A-Z\sa-z]{3,20} required><br>
+         <label>Mobile Number</label>
+         <input type="phone"  id="ph" name="mnum" required  ><br>
+         <label>Email</label>
+         <input type="text" id="mail" name="email" required ><br>
+         <label>No of person</label>
+         <input type="number" id="nop" name="person" required ><br>
+         <label>Date</label>
+         <input type="date"  id="date" name="booking date" required ><br>
+         <label>Time</label>
+         <input type="time" name="time" required ><br>
+         <label>Slot</label>
+         <select id="st" name="slot"  placeholder="Choice of slot" required>
+            <option value=""></option>
+            <option value="">Breakfast</option>
+            <option value="">Lunch</option>
+            <option value="">Dinner</option>
+            
+         </select>
+         <br><br>
+         <button type="submit">Book The Rooms</button>
+        </form>
+    </div>
+    </center>
+    
+</body>
+</html>
+
+
